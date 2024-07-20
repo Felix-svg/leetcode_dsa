@@ -9,5 +9,5 @@ def majority_element(nums):
     N = len(nums)
 
     for num in nums:
-        if count(num) > N / 2:
+        if nums.count(num) > N / 2:
             return num
